@@ -1,0 +1,36 @@
+.r-item{
+    display: grid;
+    border: 1px solid rgb(184, 129, 129);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 21px;
+    width: 571px;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+.r-item img{
+    height: 91px;
+    width: 91px;
+    border: 0;
+    border-radius: 50%;
+}
+.r-d-item{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete-btn {
+    height: 55px;
+    width: 55px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.delete-btn-icon{
+    
+    color: brown;
+    
+    height: 37px;
+    width: 37px;
+}
